@@ -1,22 +1,13 @@
-﻿conf_count = 0;
-        var jokes = new Array( );
-        jokes[1]="Why do I get so angry? Because people keep pushing my buttons!";
-        jokes[2]="What is my favorite type of music? Heavy metal";
-        jokes[3]="Why was I feeling bad? I had a virus";
-        jokes[4]="Why did I go to the mall? Because I had hardware and software but needed underwear";
-        jokes[5]="Why was I so tired when I got here? I had a hard drive";
-        jokes[6]="Why did I cross the road? I was programmed by a chicken";
-        jokes[7]="Why can’t bad programmers drive well? They can’t C sharp";
-        jokes[8]="Want to know my favorite drink? It’s a screwdriver";
-        jokes[9]="Want to know my favorite dance? It’s the robot";
+﻿    conf_count = 0;
 
-        var speak = new Array( );
-        speak[0] = "Check out my new website";
-        speak[1] = "Watch my videos to see Blaze manufacturing in action";
-        speak[2] = "Look through my photos to see our products";
-        speak[3] = "Take-A-Picture with me";
-        speak[4] = "Get ready to become a robot";
-        speak[5] = "Pick a song and let’s boogie!";
+
+    var speak = new Array( );
+    speak[0] = "Check out my new website";
+    speak[1] = "Watch my videos to see Blaze manufacturing in action";
+    speak[2] = "Look through my photos to see our products";
+    speak[3] = "Take-A-Picture with me";
+    speak[4] = "Get ready to become a robot";
+    speak[5] = "Pick a song and let’s boogie!";
 
 //window.external.ChangeLanguage("en-us");
 function FC_ContentsCall(strContentsName, strLanguage)
@@ -131,7 +122,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to Passco");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Welcome to harborside press a button on my screen to learn more");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
@@ -144,7 +135,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Hi Stacy.   This morning I was reviewing your website, it’s very impressive.  I read that Passco has one of the top company cultures in America.  I’d love to be a part of this culture at recon, ha, ha. I really like attending Las Vegas trade shows.  I’ll draw people to your booth, and Passco will be the talk of the show because you have a cool robot.  recon attendees can have fun talking and dancing with me, and I can take their picture and send it to them in a Passco photo frame. Stacy, please call Paul for a special rental rate.  In the meantime, I’ll go and get ready for my flight to recon.  Thanks Stacy, and I’ll see you soon!");
+            window.external.PlaySpeech("Welcome to harborside check out some of our publications ");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
