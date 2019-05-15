@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseCommand.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseEvent.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/LogConsole.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/Language.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="maincontents.js"></script>
+    <script src="boots/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="boots/css/bootstrap.min.css">
+    
+    <link href="css/Main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<body  onbeforeunload="JSUnload()" ondragstart="return false;" ondrop="return false;" style="-ms-user-select:none;" oncontextmenu="return false;">
+
+  <header onclick="">
+    <div class="config" onclick="FC_ContentsCall('Config')">
+        <img src="assets/config.png" height="80">
+    </div>
+    <!--<div class="img-home" onclick="location.href ='maincontents.htm'"></div>-->
+    <div class="logo">
+      <img src="assets/logo.png" onclick="">
+    </div>
+
+  </header>
+  <nav></nav>
+  <section class="main-content">
+    <!--<h1 class="welcome-text">WELCOME</br>TO NOVARTIS</h1>
+    <div class="get-started">Get Started</div>-->
+
+    <div class="navigation">
+
+      
+      
+      <div class="col-sm-4 navigation-box" style="" onclick="FC_ContentsCall('')">
+        <img src="assets/icons/education.png" class="navigation-icon" width="250">
+        <!--<h2 class="navigation-text">VIDEOS</h2>-->
+        
+      </div>
+      <div class="col-sm-4 navigation-box" style="margin: 0" onclick="FC_ContentsCall('')">
+        <img src="assets/icons/publications.png" class="navigation-icon" width="250">
+        <!--<h2 class="navigation-text">PRIZE WHEEL</h2>-->
+        
+      </div>
+      
+      
+      
+      <div class="col-sm-4 navigation-box" style="" onclick="FC_ContentsCall('')">
+        <img src="assets/icons/advertising.png" class="navigation-icon">
+        
+      </div>
+      <div class="col-sm-4 navigation-box" style="" onclick="FC_ContentsCall('')">
+        <img src="assets/icons/partnership.png" class="navigation-icon" width="250">
+        <!--<h2 class="navigation-text">SLIDESHOW</h2>-->
+      </div>
+
+      <div class="col-sm-4 navigation-box" style="margin: 0" onclick="FC_ContentsCall('Selfie')">
+        <img src="assets/icons/camera-2.png" class="navigation-icon">
+        <!--<h2 class="navigation-text">TAKE-A-PICTURE</h2>-->
+      </div>
+
+      <div class="col-sm-4 navigation-box" style="" onclick="FC_ContentsCall('Avatar')">
+        <img src="assets/icons/robot-6.png" class="navigation-icon">
+        <h2 class="navigation-text">ROBOT AVATAR</h2>
+        
+      </div>
+      
+      
+      <!--<div class="col-sm-4 navigation-box" style="" onclick="FC_ContentsCall('go-mobile')">
+        <img src="assets/icons/go-mobile.png" class="navigation-icon ">
+        
+      </div>-->
+       
+    </div>
+  </section>
+
+  <footer>
+    <img src="assets/footer.png" width="1080">
+  </footer>
+  <div id="dialog-overlay"></div>
+  <div id="dialog-box">
+  </div>
+  <style type="text/css">
+    nav {
+    height: 0px;
+  }
+  .main-content {
+    height: 1030px;
+    margin-top: 95px;
+    border-bottom: 10px solid #18388f;
+}
+  </style>
+  <script type="text/javascript">
+    /*function redirectToSS(){
+      window.location.href = "maincontents.htm";
+    }
+    var tempTime=setTimeout(redirectToSS,10000);
+
+    $(document).click(function(event) {
+        clearTimeout( tempTime );
+        tempTime=setTimeout(redirectToSS,240000);
+    });*/
+  </script>
+</body>
+</html>
