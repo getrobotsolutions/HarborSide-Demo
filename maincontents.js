@@ -122,7 +122,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
            // window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to harborside press a button on my screen to learn more");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("Welcome to harborside... press a button on my screen to learn more");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
@@ -135,7 +135,7 @@ function OnJoystickControlled(strPara){
     if(btn_info[2] == '1'){
         //window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Welcome to harborside check out some of our publications ");
+            window.external.PlaySpeech("Welcome to harborside... check out some of our publications ");
     }
     if(btn_info[3] == '1'){
         //window.external.ChangeLanguage("en-us");
